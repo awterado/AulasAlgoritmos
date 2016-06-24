@@ -3,11 +3,14 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class Ex6 {
+public class Ex9 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        for(int i=1; i<=20; i++){
-            System.out.print(i + " ");
+        int a = 2;
+        for(int i=0; i<=50; i++){
+            if(i%a!=0){
+                System.out.print(i + " ");
+            }
         }
     }
 }
